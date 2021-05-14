@@ -1,0 +1,2 @@
+export NAME='Kamala Khan'
+export PS1='Kamala Khan \w $ '

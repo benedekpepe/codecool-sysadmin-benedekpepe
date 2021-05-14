@@ -1,0 +1,37 @@
+{
+    "computer": {
+        "mac_address": 4C-CC-6A-63-89-26,
+        "private_ip": 192.168.0.80,
+        "network_id": null,
+        "network_mask": 255.255.255.0,
+        "gateway_ip": 192.168.0.1,
+        "public_ip": 176.63.0.50
+    },
+#cannot connect to modem for forgetting it's pw
+    "device": {
+        "mac_address": null,
+        "private_ip": null,
+        "network_id": null,
+        "network_mask": null,
+        "gateway_ip": null,
+        "public_ip": null,
+        "ping_ok": false,
+        "traceroute_ok": false,
+        "traceroute_hops": 0
+    },
+    "router": {
+        "mac_address": null,
+        "private_ip": null,
+        "gateway_ip": null,
+        "public_ip": null,
+        "ping_ok": false,
+        "traceroute_ok": false,
+        "traceroute_hops": 0
+    },
+    "google": {
+        "public_ip": 2a00:1450:400d:804::200e as IPv6,
+        "ping_ok": true,
+        "traceroute_ok": true,
+        "traceroute_hops": 9
+    }
+}

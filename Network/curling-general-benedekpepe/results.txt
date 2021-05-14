@@ -1,0 +1,8 @@
+curl https://curling.code.cool/
+curl https://curling.code.cool/parameterizing?username=benedekpepe
+curl -I https://curling.code.cool/headers
+curl https://curling.code.cool/finish?github=benedekpepe
+
+"Programs must be written for people to read,
+and only incidentally for machines to execute." 
+― Harold Abelson

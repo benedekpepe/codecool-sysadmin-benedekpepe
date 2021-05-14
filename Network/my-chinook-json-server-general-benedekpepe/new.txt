@@ -1,0 +1,4 @@
+curl -H "Content-Type: application/json" --request Post --data '{"name":"Scooter", "id":4}' http://localhost:3000/artists
+curl -X PUT -d '{"id":4}' http://localhost:3000/albums/3
+curl -X DELETE http://localhost:3000/tracks/3
+

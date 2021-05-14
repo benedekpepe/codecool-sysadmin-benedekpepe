@@ -1,0 +1,30 @@
+version: '3.3'
+
+services:
+  app1:
+    image: traefik/whoami
+    ports: 
+      - '5001:80'
+    environment:
+      WHOAMI_NAME: app1
+  app2:
+    image: traefik/whoami
+    ports: 
+      - '5002:80'
+    environment:
+      WHOAMI_NAME: app2
+  app3:
+    image: traefik/whoami
+    ports: 
+      - '5003:80'
+    environment:
+      WHOAMI_NAME: app3
+  lb:
+    image: nginx
+    volumes: 
+        - type: bind
+          source: ./default.conf
+          target: /etc/nginx/conf.d/default.conf
+    ports:
+      - '80:80'
+    

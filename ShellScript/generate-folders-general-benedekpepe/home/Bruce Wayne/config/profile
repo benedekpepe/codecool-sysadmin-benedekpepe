@@ -1,0 +1,2 @@
+export NAME='Bruce Wayne'
+export PS1='Bruce Wayne \w $ '

@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+  web1:
+    build: ..
+    ports:
+      - '16202:80'
+    environment:
+      DEMO_NAME: Web1
+      SPRING_DATASOURCE_URL: jdbc:postgresql://18.184.218.192:5432/chinook
+      SPRING_DATASOURCE_USERNAME: vagrant
+      SPRING_DATASOURCE_PASSWORD: vagrant

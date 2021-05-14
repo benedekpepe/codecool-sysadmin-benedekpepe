@@ -1,0 +1,53 @@
+{
+  "artists": [
+    {
+      "name": "AC/DC",
+      "id": 1
+    },
+    {
+      "name": "Accept",
+      "id": 2
+    },
+    {
+      "name": "Aerosmith",
+      "id": 3
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "title": "For Those About To...",
+      "artistId": 1
+    },
+    {
+      "id": 2,
+      "title": "Breaker",
+      "artistId": 2
+    },
+    {
+      "id": 3,
+      "title": "Valami nem tom",
+      "artistId": 3
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "name": "Thunderstruck",
+      "albumId": "1",
+      "isFavourite": "yes"
+    },
+    {
+      "id": 2,
+      "name": "The Undertaker",
+      "albumId": "2",
+      "isFavourite": "yes"
+    },
+    {
+      "id": 3,
+      "name": "Ez is egy valami",
+      "albumId": "3",
+      "isFavourite": "no"
+    }
+  ]
+}

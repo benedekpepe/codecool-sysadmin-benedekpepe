@@ -1,0 +1,4 @@
+export NAME='Carol Danvers
+'
+export PS1='Carol Danvers
+ \w $ '
